@@ -32,7 +32,7 @@ public class laporan2 {
 	static String \u0073\u0074\u0072 = "\u004Aa\u0076a";
 
 	public static void main(String[] args) {
-		
+
 		// TODO Auto-generated method stub
 		i += 2;
 
@@ -69,44 +69,41 @@ public class laporan2 {
 					System.out.println("d3 = " + d3);
 				}
 			}
-			}
-			}
-		
-
-
-			public static void objek() {
-				Boolean refBoolean = new Boolean(true);
-				boolean bool = refBoolean.booleanValue();
-
-				Byte refByte = new Byte((byte) 123);
-				byte b = refByte.byteValue();
-
-				Character refChar = new Character('x');
-				char c = refChar.charValue();
-
-				Short refShort = new Short((short) 123);
-				short s = refShort.shortValue();
-
-				Integer refInt = new Integer(123);
-				int i = refInt.intValue();
-
-				Long refLong = new Long(123L);
-				long l = refLong.longValue();
-
-				Float refFloat = new Float(12.3F);
-				float f = refFloat.floatValue();
-
-				Double refDouble = new Double(12.3D);
-				double d = refDouble.doubleValue();
-
-				System.out.println("bool = " + bool);
-				System.out.println("b = " + b);
-				System.out.println("c = " + c);
-				System.out.println("s = " + s);
-				System.out.println("i = " + i);
-				System.out.println("l = " + l);
-				System.out.println("f = " + f);
-				System.out.println("d = " + d);
-			}
 		}
-	
+	}
+
+	public static void objek() {
+		Boolean refBoolean = new Boolean(true);
+		boolean bool = refBoolean.booleanValue();
+
+		Byte refByte = new Byte((byte) 123);
+		byte b = refByte.byteValue();
+
+		Character refChar = new Character('x');
+		char c = refChar.charValue();
+
+		Short refShort = new Short((short) 123);
+		short s = refShort.shortValue();
+
+		Integer refInt = new Integer(123);
+		int i = refInt.intValue();
+
+		Long refLong = new Long(123L);
+		long l = refLong.longValue();
+
+		Float refFloat = new Float(12.3F);
+		float f = refFloat.floatValue();
+
+		Double refDouble = new Double(12.3D);
+		double d = refDouble.doubleValue();
+
+		System.out.println("bool = " + bool);
+		System.out.println("b = " + b);
+		System.out.println("c = " + c);
+		System.out.println("s = " + s);
+		System.out.println("i = " + i);
+		System.out.println("l = " + l);
+		System.out.println("f = " + f);
+		System.out.println("d = " + d);
+	}
+}
