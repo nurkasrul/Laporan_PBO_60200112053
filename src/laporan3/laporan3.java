@@ -15,9 +15,9 @@ public class laporan3 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		byte angka = 5;
-		byte angka2 = -5;
-		int hasil = angka++ >> 6 + 5 * 4 | 5 << angka2;
+		byte angka = 10;
+		byte angka2 = 6;
+		int hasil = angka++ >> 3 + 10 * 4 | 10 << angka2;
 
 		System.out.println(hasil);
 
